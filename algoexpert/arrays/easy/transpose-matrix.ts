@@ -1,9 +1,6 @@
 /*
 https://www.algoexpert.io/questions/transpose-matrix
 
-Category: Arrays
-Difficulty: Easy  
-
 You're given a 2D array of integers matrix. Write a function that returns the 
 transpose of matrix.
 
