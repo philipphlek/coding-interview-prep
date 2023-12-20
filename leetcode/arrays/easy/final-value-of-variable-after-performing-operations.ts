@@ -42,6 +42,7 @@ Constraints:
 operations[i] will be either "++X", "X++", "--X", or "X--".
 */
 
+// O(n) time | O(1) space
 function finalValueAfterOperations(operations: string[]): number {
   let val = 0
   for (const operation of operations) {

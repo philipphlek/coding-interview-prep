@@ -29,6 +29,7 @@ Constraints:
 The elements in nums are distinct.
 */
 
+// O(n) time | O(n) space
 function buildArray(nums: number[]): number[] {
   return nums.map((num) => nums[num])
 }

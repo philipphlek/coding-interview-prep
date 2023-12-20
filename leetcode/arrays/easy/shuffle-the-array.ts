@@ -24,6 +24,7 @@ nums.length == 2n
 1 <= nums[i] <= 10^3
 */
 
+// O(n) time | O(n) space
 function shuffle(nums: number[], n: number): number[] {
   let newArr: number[] = []
   for (let i = 0; i < n; i++) {
