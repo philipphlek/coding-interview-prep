@@ -37,5 +37,7 @@ digits does not contain any leading 0's.
 
 // O(n) time | O(n) space
 function plusOne(digits: number[]): number[] {
-  return `${+digits.join('') + 1}`.split('').map((digit) => +digit)
+  return `${BigInt(digits.join('')) + BigInt(1)}`
+    .split('')
+    .map((digit) => +digit)
 }
