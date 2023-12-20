@@ -1,9 +1,8 @@
 /*
 https://www.algoexpert.io/questions/two-number-sum
 
-Two Number Sum
-Difficulty: Easy  
 Category: Arrays
+Difficulty: Easy  
 
 Write a function that takes in a non-empty array of distinct integers and an 
 integer representing a target sum. If any two numbers in the input array sum 

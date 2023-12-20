@@ -1,9 +1,8 @@
 /*
 https://www.algoexpert.io/questions/validate-subsequence
 
-Validate Subsequence
-Difficulty: Easy  
 Category: Arrays
+Difficulty: Easy
 
 Given two non-empty arrays of integers, write a function that determines
 whether the second array is a subsequence of the first one.
