@@ -32,6 +32,9 @@ export function isValidSubsequence(array: number[], sequence: number[]) {
     if (num === seqNum) {
       seqIndex++
     }
+    if (seqIndex === sequence.length) {
+      return true
+    }
   }
-  return seqIndex === sequence.length
+  return false
 }
