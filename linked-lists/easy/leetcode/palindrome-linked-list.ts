@@ -17,15 +17,17 @@ The number of nodes in the list is in the range [1, 105].
 0 <= Node.val <= 9
 */
 
-// class ListNode {
-//   val: number
-//   next: ListNode | null
-
-//   constructor(val: number) {
-//     this.val = val
-//     this.next = null
-//   }
-// }
+/**
+ * Definition for singly-linked list.
+ * class ListNode {
+ *     val: number
+ *     next: ListNode | null
+ *     constructor(val?: number, next?: ListNode | null) {
+ *         this.val = (val===undefined ? 0 : val)
+ *         this.next = (next===undefined ? null : next)
+ *     }
+ * }
+ */
 
 function isPalindrome(head: ListNode | null): boolean {
   let values: number[] = []
