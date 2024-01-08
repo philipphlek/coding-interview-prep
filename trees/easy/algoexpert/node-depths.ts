@@ -58,7 +58,6 @@ function helper(node: BinaryTree | null, depth: number): number {
   return depth + helper(node.left, depth + 1) + helper(node.right, depth + 1)
 }
 
-// This is the class of the input binary tree.
 class BinaryTree {
   value: number
   left: BinaryTree | null
