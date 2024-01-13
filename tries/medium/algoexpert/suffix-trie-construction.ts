@@ -1,4 +1,6 @@
 /*
+https://www.algoexpert.io/questions/suffix-trie-construction
+
 Write a SuffixTrie cass for a Suffix-Trie-like data structure. 
 The class should have a root property set to be the root nade of the trie and should support:
   • Creating the trie from a string, this will be done by calling the populateSuffixTrieFrom
